@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { BacktotopArrow } from "./Icons";
 
 const Backtotop = () => {
         const [isVisible, setIsVisible] = useState(false);
@@ -36,7 +37,7 @@ const Backtotop = () => {
                                         display: isVisible ? "flex " : "none",
                                 }}
                         >
-
+                                <BacktotopArrow />
                         </button>
 
                 </div>
