@@ -27,7 +27,7 @@ const Trading = () => {
                                         <DownArrow />
                                     </div>
                                 </div>
-                                <input className=' bg-transparent p-2 sm:p-4  focus:outline-none text-white font-normal text-base leading-9  placeholder:text-white placeholder:text-base placeholder:leading-9 placeholder:font-normal' type="number" placeholder='Number' />
+                                <input className=' bg-transparent p-2 sm:p-4  focus:outline-none text-white font-normal text-base leading-9  placeholder:text-white placeholder:text-base placeholder:leading-9 placeholder:font-normal w-full' type="number" placeholder='Number' />
                             </div>
                             <button className=' py-3 w-full bg-gradient-to-br border border-white mt-6 from-skyBlue to-lightBlue hover:from-lightBlue hover:to-skyBlue rounded text-base text-black font-bold '>Sign Up</button>
                         </div>
