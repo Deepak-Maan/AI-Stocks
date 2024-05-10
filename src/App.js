@@ -1,4 +1,5 @@
 import "./App.css";
+import Backtotop from "./components/Backtotop";
 import Footer from "./components/Footer";
 import Growth from "./components/Growth";
 import Statistics from "./components/Statistics";
@@ -11,6 +12,7 @@ function App() {
       <Statistics />
       <Trading />
       <Footer />
+      <Backtotop />
     </div>
   );
 }
