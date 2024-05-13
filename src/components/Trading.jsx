@@ -9,7 +9,7 @@ const Trading = () => {
                 <Ellipse />
             </div>
             <div className="container px-3 mx-auto">
-                <h2 className='text-center text-3xl lg:text-5xl leading-7 lg:leading-12 text-white font-bold'>Take the <span className="text-gradient bg-gradient-to-b from-skyBlue to-lightBlue leading-10">first step</span> into <span className="block"><span className="text-gradient bg-gradient-to-b from-skyBlue to-lightBlue">AI Stock</span> Trading</span></h2>
+                <h2 className='text-center text-3xl lg:text-5xl leading-7 lg:leading-12 text-white font-bold'>Take the <span className="text-gradient bg-gradient-to-b from-skyBlue to-lightBlue leading-10">first step</span> into <span className="sm:block"><span className="text-gradient bg-gradient-to-b from-skyBlue to-lightBlue">AI Stock</span> Trading</span></h2>
                 <p className=' text-lightWhite leading-4 lg:leading-6 text-sm lg:text-base font-normal text-center pt-3 lg:pt-7'>In a matter of minutes, one of our AI mentors will contact you, No <span className="sm:block">Experience Required!</span></p>
                 <div className="grid lg:grid-cols-2 pt-7 lg:pt-12 mt-3">
                     <div className='order-2 lg:order-1 bg-gradient-to-b from-skyBlue to-lightBlue p-[2px] rounded-lg max-w-[558px] my-auto'>
