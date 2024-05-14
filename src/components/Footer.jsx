@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
             <div className='h-[1px] bg-footerGradient'></div>
             <div className="container px-3 mx-auto">
-                <div className="flex flex-col sm:flex-row sm:justify-between pb-4 sm:pb-8 md:pb-12 lg:pb-24">
+                <div className="flex flex-col sm:flex-row sm:justify-between pb-4 sm:pb-8 md:pb-12 lg:pb-[305px]">
                     <p className='text-lightWhite cursor-pointer text-base leading-6 font-normal pt-3 lg:py-7'>Privacy Policy | Conditions</p>
                     <p className='text-lightWhite cursor-pointer text-base leading-6 font-normal pt-2 lg:py-7'>Report Abuse/ Spam | Copyright@2024</p>
 

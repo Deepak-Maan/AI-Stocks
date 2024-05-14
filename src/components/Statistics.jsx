@@ -25,16 +25,14 @@ const Statistics = () => {
                 </div>
             </div>
             <p className=' pt-3 sm:pt-8 lg:pt-11 font-semibold text-2xl lg:text-4xl text-white max-w-[262px] text-center leading-7 lg:leading-10'>{crd.para}</p>
-
         </div>
-
     ))
     return (
         <div className=' py-7 sm:pt-12 md:py-24 lg:py-[269px] bg-black relative overflow-x-clip'>
-            <div className='absolute top-[65%] left-[-8%] hidden lg:flex'>
+            <div className='absolute top-[65%] left-[-33%] hidden lg:flex'>
                 <Ellipse />
             </div>
-            <div className='absolute top-[65%] right-[-10%] hidden lg:flex'>
+            <div className='absolute top-[65%] right-[-33%] hidden lg:flex'>
                 <Ellipse />
             </div>
             <div className=' container mx-auto px-3'>

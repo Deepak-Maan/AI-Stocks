@@ -5,7 +5,7 @@ import { Ellipse } from './ellipse'
 const Trading = () => {
     return (
         <div className='relative overflow-x-clip'>
-            <div className='absolute top-[85%] left-[-8%] hidden lg:flex'>
+            <div className='absolute top-[85%] left-[-33%] hidden lg:flex'>
                 <Ellipse />
             </div>
             <div className="container px-3 mx-auto">
