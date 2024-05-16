@@ -3,7 +3,6 @@ import { BacktotopArrow } from "./Icons";
 
 const Backtotop = () => {
         const [isVisible, setIsVisible] = useState(false);
-
         useEffect(() => {
                 const toggleVisible = () => {
                         if (typeof window !== "undefined" && window.pageYOffset > 300) {
@@ -12,10 +11,8 @@ const Backtotop = () => {
                                 setIsVisible(false);
                         }
                 };
-
                 if (typeof window !== "undefined") {
                         window.addEventListener("scroll", toggleVisible);
-
                         return () => {
                                 window.removeEventListener("scroll", toggleVisible);
                         };
@@ -31,15 +28,9 @@ const Backtotop = () => {
         };
         return (
                 <div>
-                        <button className="  group border flex justify-center animate-bounce items-center w-[30px] sm:w-[40px] h-[30px] sm:h-[40px] rounded-full bg-gradient-to-b from-skyBlue to-lightBlue  right-[6px] fixed sm:right-[1%] bottom-[6px] sm:bottom-[1%] z-50 animate-back "
-                                onClick={scrollToTop}
-                                style={{
-                                        display: isVisible ? "flex " : "none",
-                                }}
-                        >
+                        <button className="  group border flex justify-center animate-bounce items-center w-[30px] sm:w-[40px] h-[30px] sm:h-[40px] rounded-full bg-gradient-to-b from-skyBlue to-lightBlue  right-[6px] fixed sm:right-[1%] bottom-[6px] sm:bottom-[1%] z-50 animate-back " onClick={scrollToTop} style={{ display: isVisible ? "flex " : "none", }}>
                                 <BacktotopArrow />
                         </button>
-
                 </div>
         )
 }
